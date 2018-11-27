@@ -1,0 +1,11 @@
+c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\bin\Debug\frmMyfirst.exe.config
+c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\bin\Debug\frmMyfirst.exe
+c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\bin\Debug\frmMyfirst.pdb
+c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\bin\Debug\frmMyfirst.xml
+c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.vbprojResolveAssemblyReference.cache
+c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.Form1.resources
+c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.Resources.resources
+c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.vbproj.GenerateResource.Cache
+c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.exe
+c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.xml
+c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.pdb
