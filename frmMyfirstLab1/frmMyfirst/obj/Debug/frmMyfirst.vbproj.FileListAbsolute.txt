@@ -9,3 +9,16 @@ c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\o
 c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.exe
 c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.xml
 c:\users\ancpc\documents\visual studio 2017\Projects\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.pdb
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\bin\Debug\frmMyfirst.exe.config
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\bin\Debug\frmMyfirst.exe
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\bin\Debug\frmMyfirst.pdb
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\bin\Debug\frmMyfirst.xml
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.vbprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.Form1.resources
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.Form2.resources
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.Resources.resources
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.vbproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.exe
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.xml
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.pdb
