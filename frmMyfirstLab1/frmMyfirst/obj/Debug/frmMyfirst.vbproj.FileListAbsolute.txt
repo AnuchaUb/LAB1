@@ -23,3 +23,5 @@ C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfir
 C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.xml
 C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.pdb
 C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmColor.resources
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmLab5.resources
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmJob4.resources
