@@ -39,6 +39,7 @@
     End Sub
 
     Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
+        decDiscount = 0
         Dim chk1 As String = txtProduct.Text
         Dim chk2 As Integer = Val(txtPrice.Text)
         Dim chk3 As Integer = Val(txtUnit.Text)
@@ -47,27 +48,34 @@
             MessageBox.Show("ป้อนข้อมูลไม่สมบูรณ์")
         Else
             If radMember.Checked And radPaid.Checked Then
+
                 If lblTotal.Text < 1000 Then
                     decDiscount = 0 * decTotal
                 ElseIf lblTotal.Text < 5000 Then
                     decDiscount = 0.05 * decTotal
                 ElseIf lblTotal.Text < 10000 Then
                     decDiscount = 0.1 * decTotal
-                ElseIf lblTotal.Text > 10000 Then
+                ElseIf lblTotal.Text >= 10000 Then
                     decDiscount = 0.15 * decTotal
                 End If
                 decNet = decTotal - decDiscount
-                decCredit = 0
                 lblDiscount.Text = decDiscount.ToString("#,###")
                 lblPaid.Text = decNet.ToString("#,###")
                 lblCredit.Text = 0
-            ElseIf radmember.Checked And radCredit.Checked Or radOther.Checked Then
+            ElseIf radMember.Checked And radCredit.Checked Then
+                decDiscount = 0
+                decNet = decTotal - decTotal
+                decCredit = decTotal
+                lblDiscount.Text = 0
+                lblPaid.Text = 0
+                lblCredit.Text = decCredit.ToString("#,###")
+            ElseIf radOther.Checked Then
                 decDiscount = 0
                 decNet = decTotal - decDiscount
-                decCredit = decNet
+                decCredit = 0
                 lblDiscount.Text = 0
                 lblPaid.Text = decNet.ToString("#,###")
-                lblCredit.Text = decCredit.ToString("#,###")
+                lblCredit.Text = 0
             End If
         End If
     End Sub

@@ -199,6 +199,7 @@ Partial Class frmColor
         '
         'cboSize
         '
+        Me.cboSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSize.FormattingEnabled = True
         Me.cboSize.Items.AddRange(New Object() {"12", "14", "16", "18", "20", "22", "24", "26", "28", "36", "48", "50"})
         Me.cboSize.Location = New System.Drawing.Point(429, 137)

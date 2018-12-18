@@ -86,7 +86,7 @@ Partial Class frmLab5
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Angsana New", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Teal
-        Me.Label4.Location = New System.Drawing.Point(52, 167)
+        Me.Label4.Location = New System.Drawing.Point(47, 166)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(52, 26)
         Me.Label4.TabIndex = 0
@@ -203,9 +203,9 @@ Partial Class frmLab5
         Me.GroupBox1.Controls.Add(Me.radMember)
         Me.GroupBox1.Font = New System.Drawing.Font("Angsana New", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Teal
-        Me.GroupBox1.Location = New System.Drawing.Point(57, 196)
+        Me.GroupBox1.Location = New System.Drawing.Point(52, 196)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(161, 46)
+        Me.GroupBox1.Size = New System.Drawing.Size(178, 61)
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "ประเภทลูกค้า"
@@ -214,7 +214,7 @@ Partial Class frmLab5
         '
         Me.radOther.AutoSize = True
         Me.radOther.ForeColor = System.Drawing.Color.Purple
-        Me.radOther.Location = New System.Drawing.Point(79, 19)
+        Me.radOther.Location = New System.Drawing.Point(87, 25)
         Me.radOther.Name = "radOther"
         Me.radOther.Size = New System.Drawing.Size(85, 30)
         Me.radOther.TabIndex = 0
@@ -226,7 +226,7 @@ Partial Class frmLab5
         '
         Me.radMember.AutoSize = True
         Me.radMember.ForeColor = System.Drawing.Color.Purple
-        Me.radMember.Location = New System.Drawing.Point(7, 19)
+        Me.radMember.Location = New System.Drawing.Point(6, 25)
         Me.radMember.Name = "radMember"
         Me.radMember.Size = New System.Drawing.Size(65, 30)
         Me.radMember.TabIndex = 0
@@ -240,9 +240,9 @@ Partial Class frmLab5
         Me.gpbPaid.Controls.Add(Me.radPaid)
         Me.gpbPaid.Font = New System.Drawing.Font("Angsana New", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gpbPaid.ForeColor = System.Drawing.Color.Teal
-        Me.gpbPaid.Location = New System.Drawing.Point(227, 199)
+        Me.gpbPaid.Location = New System.Drawing.Point(236, 199)
         Me.gpbPaid.Name = "gpbPaid"
-        Me.gpbPaid.Size = New System.Drawing.Size(109, 46)
+        Me.gpbPaid.Size = New System.Drawing.Size(128, 58)
         Me.gpbPaid.TabIndex = 3
         Me.gpbPaid.TabStop = False
         Me.gpbPaid.Text = "การชำระเงิน"
@@ -251,7 +251,7 @@ Partial Class frmLab5
         '
         Me.radCredit.AutoSize = True
         Me.radCredit.ForeColor = System.Drawing.Color.Purple
-        Me.radCredit.Location = New System.Drawing.Point(60, 19)
+        Me.radCredit.Location = New System.Drawing.Point(74, 22)
         Me.radCredit.Name = "radCredit"
         Me.radCredit.Size = New System.Drawing.Size(48, 30)
         Me.radCredit.TabIndex = 0
@@ -263,7 +263,7 @@ Partial Class frmLab5
         '
         Me.radPaid.AutoSize = True
         Me.radPaid.ForeColor = System.Drawing.Color.Purple
-        Me.radPaid.Location = New System.Drawing.Point(6, 19)
+        Me.radPaid.Location = New System.Drawing.Point(6, 22)
         Me.radPaid.Name = "radPaid"
         Me.radPaid.Size = New System.Drawing.Size(45, 30)
         Me.radPaid.TabIndex = 0
