@@ -42,3 +42,5 @@ C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfi
 C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.xml
 C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.pdb
 C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmPractice2.resources
+C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmPractice4.resources
+C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmPractice5.resources
