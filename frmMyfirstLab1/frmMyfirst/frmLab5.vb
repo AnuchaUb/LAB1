@@ -21,6 +21,11 @@
     Private Sub radOther_CheckedChanged(sender As Object, e As EventArgs) Handles radOther.CheckedChanged
         Call radMember_CheckedChanged(sender, e)
     End Sub
+
+    Private Sub frmLab5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
     Private Sub radPaid_CheckedChanged(sender As Object, e As EventArgs) Handles radPaid.CheckedChanged
         Call radMember_CheckedChanged(sender, e)
     End Sub

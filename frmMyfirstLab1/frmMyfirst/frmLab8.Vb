@@ -1,31 +1,39 @@
 ﻿Public Class frmLab8
-    Dim sumScore, sumCredit As Double
+    Dim sumScore As Decimal = 0
+    Dim sumCredit As Decimal = 0
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
-        Call frmLab8_Load(sender, e)
+        lblOldTotalCredit.Text = sumCredit
+        lblOldTotalGPA.Text = sumScore / sumCredit
+        lblOldTotalScore.Text = sumScore
+        lblNewGPA.Text = ""
+        txtSubject.Clear()
+        txtScore.Clear()
+        txtCredit.Clear()
+        lstSubject.Items.Clear()
+        lstScore.Items.Clear()
+        lstGrade.Items.Clear()
+        lstCredit.Items.Clear()
     End Sub
     Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
         If txtSubject.Text.Trim = "" Or txtScore.Text.Trim = "" Or txtCredit.Text.Trim = "" Then
             MessageBox.Show("กรอกข้อมูลไม่ครบถ้วน", "", MessageBoxButtons.OK)
             Exit Sub
         Else
-            sumScore = getScore(Val(txtScore.Text))
+            getScore(Val(txtScore.Text))
             lstSubject.Items.Add(txtSubject.Text)
             lstScore.Items.Add(txtScore.Text)
             lstCredit.Items.Add(txtCredit.Text)
             lstSubject.SelectedIndex = lstSubject.Items.Count - 1
-            lstScore.SelectedIndex = lstSubject.Items.Count - 1
-            lstGrade.SelectedIndex = lstSubject.Items.Count - 1
-            lstCredit.SelectedIndex = lstSubject.Items.Count - 1
+            calData()
         End If
     End Sub
     Private Sub frmLab8_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         sumScore = 150
         sumCredit = 50
-        Call calData()
         lblOldTotalScore.Text = sumScore
         lblOldTotalCredit.Text = sumCredit
         lblOldTotalGPA.Text = sumScore / sumCredit
-
+        calData()
     End Sub
 
     Private Sub lstSubject_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstSubject.SelectedIndexChanged
@@ -107,8 +115,7 @@
         Return a
     End Function
     Private Sub calData()
-        Dim sumGPA, getCre, getSc As Double
-        Dim g As Decimal
+        Dim sumGPA, getCre, getSc, g As Decimal
         For i As Integer = 0 To lstGrade.Items.Count - 1
             If lstGrade.Items(i) = "A" Then
                 g = 4
@@ -128,10 +135,22 @@
                 g = 0
             End If
             getCre += lstCredit.Items(i)
-            getSc += lstScore.Items(i)
-            sumGPA = getCre * g
-            lblNewGPA.Text = sumGPA.ToString("#.##")
+            getSc += g * lstCredit.Items(i)
+            sumGPA = ((getSc + sumScore) / (getCre + sumCredit))
         Next
+        lblNewGPA.Text = sumGPA.ToString("#.##")
+    End Sub
 
+    Private Sub txtScore_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtScore.KeyPress
+        Dim keyInt As Integer = Asc(e.KeyChar)
+        If (keyInt >= 48 And keyInt <= 57) Or keyInt = 48 Or keyInt = 8 Then
+            Exit Sub
+        Else
+            e.KeyChar = Nothing
+        End If
+    End Sub
+
+    Private Sub txtCredit_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtCredit.KeyPress
+        txtScore_KeyPress(sender, e)
     End Sub
 End Class
