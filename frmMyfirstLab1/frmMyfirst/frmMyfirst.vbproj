@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5F4DA854-5EE0-4486-A873-4EF9F69D1441}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>frmMyfirst.frmLab8</StartupObject>
+    <StartupObject>frmMyfirst.frmLab7</StartupObject>
     <RootNamespace>frmMyfirst</RootNamespace>
     <AssemblyName>frmMyfirst</AssemblyName>
     <FileAlignment>512</FileAlignment>
