@@ -2,7 +2,6 @@
     Private Sub frmLab7_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         btnAdd.Enabled = False
     End Sub
-
     Private Sub txtAdd_TextChanged(sender As Object, e As EventArgs) Handles txtAdd.TextChanged
         If (txtAdd.Text = "") Then
             btnAdd.Enabled = False
@@ -10,13 +9,11 @@
             btnAdd.Enabled = True
         End If
     End Sub
-
     Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
         lstAdd.Items.Add(txtAdd.Text)
         txtAdd.Clear()
         lstAdd.SelectedIndex = lstAdd.Items.Count - 1
     End Sub
-
     Private Sub btnMove_Click(sender As Object, e As EventArgs) Handles btnMove.Click
         Dim a As Integer = lstAdd.SelectedIndex
         If lstAdd.Items.Count = 0 Then
@@ -34,7 +31,6 @@
             End If
         End If
     End Sub
-
     Private Sub btnMoveAll_Click(sender As Object, e As EventArgs) Handles btnMoveAll.Click
         If lstAdd.Items.Count = 0 Then
             MsgBox("ไม่มีรายการเหลืออยู่ใน ListBox")
@@ -44,20 +40,18 @@
                 cboOutput.SelectedIndex = cboOutput.Items.Count - 1
             Next
             lstAdd.Items.Clear()
-            lblOutput.Text = ""
         End If
     End Sub
-
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         If cboOutput.Items.Count = 0 Then
             MsgBox("ไม่มีข้อมูลใน ComboBox")
             cboOutput.Text = ""
+            lblOutput.Text = ""
         Else
             lstAdd.Items.Add(cboOutput.SelectedItem)
             cboOutput.Items.Remove(cboOutput.SelectedItem)
             cboOutput.SelectedIndex = cboOutput.Items.Count - 1
             lstAdd.SelectedIndex = lstAdd.Items.Count - 1
-            lblOutput.Text = ""
         End If
     End Sub
     Private Sub btnBackAll_Click(sender As Object, e As EventArgs) Handles btnBackAll.Click
@@ -80,11 +74,9 @@
         txtAdd.Clear()
         lblOutput.Text = ""
     End Sub
-
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Close()
     End Sub
-
     Private Sub cboOutput_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboOutput.SelectedIndexChanged
         lblOutput.Text = cboOutput.SelectedItem
     End Sub

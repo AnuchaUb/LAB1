@@ -26,8 +26,6 @@
                 lblPaidPrice.Text = ""
             Else
                 chkCarForMe.Checked = True
-
-
             End If
         End If
     End Sub
@@ -56,7 +54,7 @@
         lblPaidPrice.Text = FormatNumber(dblPaidPrice)
     End Sub
     Private Sub chkAddItem1_CheckedChanged(sender As Object, e As EventArgs) Handles chkAddItem1.CheckedChanged
-        If (chkAddItem1.Checked) Then
+        If chkAddItem1.Checked Then
             dblPaidPrice += 40000
         Else
             dblPaidPrice -= 40000
