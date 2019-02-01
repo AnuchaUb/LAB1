@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5F4DA854-5EE0-4486-A873-4EF9F69D1441}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>frmMyfirst.frmLab7</StartupObject>
+    <StartupObject>frmMyfirst.My.MyApplication</StartupObject>
     <RootNamespace>frmMyfirst</RootNamespace>
     <AssemblyName>frmMyfirst</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -139,6 +139,12 @@
     <Compile Include="frmPractice1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmPractice10.Designer.Vb">
+      <DependentUpon>frmPractice10.Vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPractice10.Vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmPractice2.Designer.vb">
       <DependentUpon>frmPractice2.vb</DependentUpon>
     </Compile>
@@ -161,6 +167,18 @@
       <DependentUpon>frmPractice5.vb</DependentUpon>
     </Compile>
     <Compile Include="frmPractice5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPractice6.Designer.vb">
+      <DependentUpon>frmPractice6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPractice6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPractice7.Designer.vb">
+      <DependentUpon>frmPractice7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPractice7.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPractice8.Designer.vb">
@@ -219,6 +237,9 @@
     <EmbeddedResource Include="frmPractice1.resx">
       <DependentUpon>frmPractice1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPractice10.resx">
+      <DependentUpon>frmPractice10.Vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPractice2.resx">
       <DependentUpon>frmPractice2.vb</DependentUpon>
     </EmbeddedResource>
@@ -227,6 +248,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPractice5.resx">
       <DependentUpon>frmPractice5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPractice6.resx">
+      <DependentUpon>frmPractice6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPractice7.resx">
+      <DependentUpon>frmPractice7.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPractice8.resx">
       <DependentUpon>frmPractice8.vb</DependentUpon>

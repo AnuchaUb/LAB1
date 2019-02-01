@@ -34,10 +34,6 @@
         End If
     End Sub
 
-    Private Sub frmPractice8_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
     Private Sub txtYourSale_KeyPress(ByVal sander As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtYourSale.KeyPress
         Dim keyInt As Integer = Asc(e.KeyChar)
         If (keyInt >= 48 And keyInt <= 57) Or keyInt = 48 Or keyInt = 8 Then
