@@ -71,6 +71,7 @@
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
         lstAdd.Items.Clear()
         cboOutput.Items.Clear()
+        cboOutput.Text = ""
         txtAdd.Clear()
         lblOutput.Text = ""
     End Sub

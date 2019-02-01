@@ -50,8 +50,14 @@ C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfir
 C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmPractice4.resources
 C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmPractice5.resources
 C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmLab7.resources
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmLab10.resources
 C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmJob6.resources
 C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmLab7.resources
 C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmPractice8.resources
 C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmLab8.resources
+<<<<<<< HEAD
 C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmmidterm.resources
+=======
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmLab8.resources
+C:\Users\user\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmPractice8.resources
+>>>>>>> af135818c6ed5c99919379383e469caee1c22748
