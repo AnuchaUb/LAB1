@@ -34,6 +34,7 @@
         lblOldTotalCredit.Text = sumCredit
         lblOldTotalGPA.Text = sumScore / sumCredit
         calData()
+        Label1.Text = "&o&k"
     End Sub
 
     Private Sub lstSubject_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstSubject.SelectedIndexChanged
