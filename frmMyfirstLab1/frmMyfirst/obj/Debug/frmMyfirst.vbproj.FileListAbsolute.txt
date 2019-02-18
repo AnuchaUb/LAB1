@@ -65,3 +65,4 @@ C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfi
 C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmPractice10.resources
 C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmPractice7.resources
 C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmPractice6.resources
+C:\Users\ANCPC\Documents\GitHub\LAB1\frmMyfirstLab1\frmMyfirst\obj\Debug\frmMyfirst.frmSelectData.resources

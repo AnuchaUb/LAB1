@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="frmMyfirst.Form1" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAECAAAAAAAACAAAQCgAAQABAAAAAAgAAAAQA=</HashCode>
+      <FileName>Form1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.Form2" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABAAECASAAgAAACAAAZCAAAAIFAAAAAAACAAAAA=</HashCode>
+      <FileName>Form2.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmJob4" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAEiAgECAACAICICCABIACgQAEBAAMCAAAEBAABCA=</HashCode>
+      <FileName>frmJob4.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmJob6" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEACBgOESIMQAAAAACAAUAGBAAAIAAAAhAEiAgqgQA=</HashCode>
+      <FileName>frmJob6.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmLab10" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQQAECAAAQAACACAAAQCLIhwgQIgCAIAARAAAKI=</HashCode>
+      <FileName>frmLab10.Vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmColor" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUigYCECBQDBAEABDCKAACAShAJgEAwM0AUQEBxAQ=</HashCode>
+      <FileName>frmLab3.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmLab5" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAHAAMjAwAIgCIACAKAASAAREYAAACAEAAAAQAQA=</HashCode>
+      <FileName>frmLab5.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmLab7" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAkSCAAAAIAACIAIQCACAAogDAEAABACAAAAM=</HashCode>
+      <FileName>frmLab7.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmLab8" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAJRQAAECAAAIAEAICQEAACAAAgoACAAAkBCCGAABM=</HashCode>
+      <FileName>frmLab8.Vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmmidterm" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGUIAAEiAAIAAAAACIABQKAABTIBQAYkiBAAIFAQA=</HashCode>
+      <FileName>frmmidterm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmPractice1" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAECAAAAAAAACAAAACAABBAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>frmPractice1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmPractice10" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAECAEAAAAAACAQAACBYAAAAAAKAAAAAiAAIA=</HashCode>
+      <FileName>frmPractice10.Vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmPractice2" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAMAQECEAAQAAAAiAAgACIAAAYAAAAIAABAABAAI=</HashCode>
+      <FileName>frmPractice2.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmPractice3" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>frmPractice3.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmPractice4" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAgAAECIkgAAAAACAAAAiAYQAAQAAAAACAAEBAMo=</HashCode>
+      <FileName>frmPractice4.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmPractice5" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEiAQAIAAIACAAAACAAAEAAAACAEAAAAQAQA=</HashCode>
+      <FileName>frmPractice5.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmPractice6" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAECQAAAAAIACAAAAiAABAAUAAAEAAAAQAAEA=</HashCode>
+      <FileName>frmPractice6.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmPractice7" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAAEGAAAAAAAACIAAgCAAAAQAAACAAAAAgAAQA=</HashCode>
+      <FileName>frmPractice7.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmPractice8" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAQBAAQEASAAAQiAIAAgABAAAAAAAAAAAY=</HashCode>
+      <FileName>frmPractice8.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.frmSelectData" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAAAAAAAACAAAgCAIoASAAIAAAAAAAAAAA=</HashCode>
+      <FileName>frmSelectData.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.My.MyApplication" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="frmMyfirst.My.MySettings" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABEAAAAABAABBAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="frmMyfirst.My.MySettingsProperty" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="frmMyfirst.My.Resources.Resources" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
